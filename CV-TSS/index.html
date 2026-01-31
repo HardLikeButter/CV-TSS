@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV-TSS</title>
+
+        <!--    Styles   -->
+        <link rel="stylesheet" href="style.css">
+
+        <!--    Font Family  -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+
+
+
+
+        <header>
+            <!-- Profile Img -->
+            <div class="header-img">
+                <img src="img/link-img.jpeg" alt="profile picture">
+            </div>
+
+            <h1>Bryan Norman</h1>
+            <!-- contact info -->
+                <section>
+                    <div>Email: <a href="mailto:bryan.devnorman@gamil.com">bryan.devnorman@gmail.com</a></div>
+                    <br>
+                    <div>Phone: <a href="tel:3307804598">330-780-9845</a></div>
+                </section>
+        </header>   
+
+
+        <h2>Summary</h2>
+        <!-- main article -->
+        <article>
+            <p>Aspiring front-end developer with a strong foundation in <strong>HTML, CSS, and JavaScript</strong>. I enjoy building visually appealing, responsive interfaces and continuously improving my front-end skills.</p>
+        </article>
+
+
+
+        <section>
+            <!--List of Education-->
+
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <a href="https://www.springboard.com/" target="_blank"><b>Springboard</b></a> - Software Developer Career Track (2025)
+                </li>
+
+                <li>
+                    <a href="https://www.freecodecamp.org/" target="_blank"><b>freeCodeCamp.com</b></a> - Responsive Web Deseign (2021)
+                </li>
+
+                <li>
+                    <b>Chippewa High School</b> - High School Diploma (2003-2007)
+                </li>
+            </ul>
+        </section>
+
+        <br>
+        <br>
+
+
+        <table>
+            <caption>Languages</caption>
+            <!-- Heading -->
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Use</th>
+                    <th>Experience</th>
+                </tr>
+            </thead>
+            <!-- Main Content -->
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Web Development, front-end challenges</td>
+                    <td>5years</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Web Development, front-end challenges</td>
+                    <td>5 years</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Web Development, front-end challenges</td>
+                    <td>5 years</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Code Challenges, Security</td>
+                    <td>less-than 1 year</td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>Game Development</td>
+                    <td>less-than one year</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        
+        
+        <!--List of skills-->
+        <section>
+            <h2>Technologies</h2>
+
+            <h3>Web Development</h3>
+            <ol>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Excel Spreadsheets</li>
+                <li>Transcibing</li>
+                <li>And more to come!</li>
+            </ol>
+        </section>
+
+        <section>
+            <!-- Project -->
+            <h2>Project</h2>
+
+
+            <ul>
+                <li><a href="https://chipper-nougat-452a6d.netlify.app/" target="_blank">Tron Page</a></li>
+            </ul>
+            <!-- project img -->
+            <div class="project-img">
+                <a href="https://chipper-nougat-452a6d.netlify.app/" target="_blank"><img src="img/tron-shot.png" alt="project photo of tron page"></a>
+            </div>
+        </section>
+        <br>
+
+    <!-- /////////             Form Beginning         ///////// -->
+
+        <h2>Getting in Touch</h2>
+
+        <!-- Name Input-->
+        <form>
+                <label>
+                    Name:
+                    <input 
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    minlength="1"
+                    maxlength="15" 
+                    required>
+                </label>
+                <br>
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input 
+                    type="email"
+                    placeholder="Email" 
+                    name="email" 
+                    id="email"
+                    required>
+            
+
+                <!-- Phone Input -->
+                <label for="phone">Phone:</label>
+                <input
+                    type="text"
+                    placeholder="Phone"
+                    name="phone"
+                    inputmode="numeric"
+                    minlength="10"
+                    maxlength="10"
+                    id="phone"
+                    required>
+                
+                <hr>
+                
+                <!-- Select Option -->
+                Purpose for Outreach:
+            <select>
+                <option value="">--Please Select--</option>
+                <option value="JO">Job Offer</option>
+                <option value="CO">Contracter Oppertunity</option>
+                <option value="OT">Other</option>
+            </select>
+            <br>
+            <br>
+            <b>Favorite Tool</b>
+            <br>
+                <!-- Radio Selection -->
+            <label>
+                <input type="radio" name="favorite" value="HTML"> HTML <br>
+            </label>
+
+            <label>
+                <input type="radio" name="favorite" value="CSS"> CSS <br>
+            </label>
+
+            <label>
+                <input type="radio" name="favorite" value="Javascript"> Javascript <br>
+            </label>
+
+            <label>
+                <input type="radio" name="favorite" value="Python"> Python <br>
+            </label>
+            
+            <hr>
+            <!-- Color Picker -->
+            <label>
+                Color of Your Editor: <input type="color" name="color" required>
+            </label>
+            <br>
+            <br>
+
+            <!-- Message Area -->
+            <textarea name="message" placeholder="Which editor do you use?" cols="30" rows="5" minlength="5" ></textarea>
+            <br>
+            <!-- Submit Button -->
+            <button type="submit">Submit Form</button>
+        </form>
+
+        <!-- ///////             Form End                 /////// -->
+
+        <hr>
+
+
+        <footer>
+
+            <!-- social media -->
+            <div>
+                <p>Lets connect!</p> 
+                <a href="https://www.linkedin.com/in/bryan-n-5b7654236/" target="_blank"><img src="img/linkedin-48.png" alt="linkedin icon"></a>
+            </div>
+            <br>
+            
+
+
+            <!-- icon reference -->
+            <a target="_blank" href="https://icons8.com/icon/13930/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,80 @@
+
+html {
+
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(148deg,rgba(181, 255, 254, 1) 0%, rgba(101, 196, 219, 1) 44%, rgba(130, 115, 81, 1) 81%);
+
+}
+
+h1 {
+    font-family: "Fascinate", sans-serif;
+    font-size: 2.7rem;
+    letter-spacing: 9px;
+    text-shadow: 3px 3px 7px rgb(216, 193, 89);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+h2 {
+    text-transform: capitalize;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(118, 85, 29);
+}
+
+
+p {
+    word-spacing: 2px;
+}
+
+
+
+
+/* Table / Language section */
+
+tbody tr {
+    line-height: 1.3rem;
+    
+}
+
+tbody tr td {
+    padding: .3rem;
+}
+
+
+
+
+/*  Education section */
+
+li b {
+    color: rgb(118, 85, 29);
+
+}
+
+
+
+
+/*        classes        */
+
+.header-img img {
+    width: 12.5rem;
+    border-radius: 20px;
+}
+
+
+.project-img img {
+    width: 8rem;
+}
+
+
